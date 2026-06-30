@@ -17,42 +17,66 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am a researcher with a background in Artificial Intelligence, Computer Vision, and Natural Language Processing. I received my M.S. degree from Dongguk University (Seoul, South Korea) in 2025, where I was a member of the Game Engine & Robot Intelligence Lab. My research focuses on AI-driven game commentary generation, conversational emotion recognition, and 3D scene reconstruction from monocular video. Prior to my graduate studies, I worked as a frontend developer at a mobile game company in China for nearly three years. I have published papers at journals including *IEEE Access* and *Mathematics* (MDPI), with total <a href='https://scholar.google.com/citations?user=ExfeJJwAAAAJ'>google scholar citations <strong><span id='total_cit'>0+</span></strong></a> <a href='https://scholar.google.com/citations?user=ExfeJJwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.08*: &nbsp;🎉🎉 Paper accepted at *Mathematics* (MDPI) — "Integrating Temporal Event Prediction and Large Language Models for Automatic Commentary Generation in Video Games".
+- *2025.07*: &nbsp;🎉🎉 Paper accepted at *Mathematics* (MDPI) — "EmoBERTa-CNN: Hybrid Deep Learning Approach for Enhanced Emotion Recognition in Conversational Settings".
+- *2024.10*: &nbsp;🎉🎉 Paper published in *IEEE Access* — "Indoor Scene Reconstruction From Monocular Video Combining Contextual and Geometric Priors".
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='images/mathematics-13-02738-g002.png' alt="commentary" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**Integrating Temporal Event Prediction and Large Language Models for Automatic Commentary Generation in Video Games**
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Xuanyu Sheng**, A. Yu, M. Zhang, G. An, J. Park, K. Cho
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+*Mathematics*, Vol. 13, No. 17, p. 2738, MDPI, 2025. — **1st Author**
+
+- Combined OS-CNN time-series prediction with LLaMA3.3 to generate real-time soccer game commentary within 3 seconds.
+- Achieved F1-score 0.8503 on Google Research Football dataset using Focal Loss + SMOTE.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='images/mathematics-13-02438-g001.png' alt="emotion" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**EmoBERTa-CNN: Hybrid Deep Learning Approach Capturing Global Semantics and Local Features for Enhanced Emotion Recognition in Conversational Settings**
+
+M. Zhang, A. Yu, **Xuanyu Sheng**, J. Park, J. Rhee, K. Cho
+
+*Mathematics*, Vol. 13, No. 15, p. 2438, MDPI, 2025. — **3rd Author**
+
+- Fused EmoBERTa with CNN and attention mechanism for conversational emotion recognition.
+- Achieved F1-score 96.0% on SemEval-2019 Task 3 and 79.45% on MELD, outperforming DialogXL and EmotionFlow.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Access 2024</div><img src='images/cho1-3481250-large.gif' alt="reconstruction" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Indoor Scene Reconstruction From Monocular Video Combining Contextual and Geometric Priors**
+
+M. Wen, **Xuanyu Sheng**, K. Cho
+
+*IEEE Access*, Vol. 12, pp. 153360–153369, 2024. — **2nd Author**
+
+- Proposed a ViT-based scene reconstruction model with CGF cost estimation.
+- Outperformed prior methods on ScanNet v2 in Chamfer Distance, Precision, and F-score.
+</div>
+</div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.08* TOPIK (Test of Proficiency in Korean) — Level 6, National Institute for International Education.
+- *2023.09* SRDⅡ International Full Scholarship, Dongguk University.
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.09 - 2025.08*, M.S., Dongguk University, Seoul, South Korea. GPA: 4.0/4.5.
+- *2016.09 - 2020.06*, B.S., Bohai University, China. GPA: 80.57/100.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💻 Work Experience
+- *2023.09 - 2025.08*, Researcher, Game Engine & Robot Intelligence Lab, Dongguk University, Seoul, South Korea.
+- *2020.11 - 2023.08*, Frontend Developer, Hangzhou Langtu Technology Co., Ltd., China.
