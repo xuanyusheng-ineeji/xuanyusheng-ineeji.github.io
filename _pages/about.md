@@ -34,7 +34,7 @@ I am a researcher with a background in Artificial Intelligence, Computer Vision,
 
 **Xuanyu Sheng**, A. Yu, M. Zhang, G. An, J. Park, K. Cho
 
-*Mathematics*, Vol. 13, No. 17, p. 2738, MDPI, 2025. — **1st Author**
+*Mathematics*, Vol. 13, No. 17, p. 2738, MDPI, 2025. — **1st Author** <strong><span class='show_paper_citations' data='ExfeJJwAAAAJ:d1gkVwhDpl0C'></span></strong>
 
 - Combined OS-CNN time-series prediction with LLaMA3.3 to generate real-time soccer game commentary within 3 seconds.
 - Achieved F1-score 0.8503 on Google Research Football dataset using Focal Loss + SMOTE.
@@ -48,7 +48,7 @@ I am a researcher with a background in Artificial Intelligence, Computer Vision,
 
 M. Zhang, A. Yu, **Xuanyu Sheng**, J. Park, J. Rhee, K. Cho
 
-*Mathematics*, Vol. 13, No. 15, p. 2438, MDPI, 2025. — **3rd Author**
+*Mathematics*, Vol. 13, No. 15, p. 2438, MDPI, 2025. — **3rd Author** <strong><span class='show_paper_citations' data='ExfeJJwAAAAJ:u-x6o8ySG0sC'></span></strong>
 
 - Fused EmoBERTa with CNN and attention mechanism for conversational emotion recognition.
 - Achieved F1-score 96.0% on SemEval-2019 Task 3 and 79.45% on MELD, outperforming DialogXL and EmotionFlow.
@@ -62,7 +62,7 @@ M. Zhang, A. Yu, **Xuanyu Sheng**, J. Park, J. Rhee, K. Cho
 
 M. Wen, **Xuanyu Sheng**, K. Cho
 
-*IEEE Access*, Vol. 12, pp. 153360–153369, 2024. — **2nd Author**
+*IEEE Access*, Vol. 12, pp. 153360–153369, 2024. — **2nd Author** <strong><span class='show_paper_citations' data='ExfeJJwAAAAJ:u5HHmVD_uO8C'></span></strong>
 
 - Proposed a ViT-based scene reconstruction model with CGF cost estimation.
 - Outperformed prior methods on ScanNet v2 in Chamfer Distance, Precision, and F-score.
