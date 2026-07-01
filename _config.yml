@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Xuanyu Sheng"
-  avatar           : "images/0830证件照.jpg"
+  avatar           : "/images/0830证件照.jpg"
   bio              : "M.S. · Dongguk University"
   location         : "Seoul, South Korea"
   employer         :

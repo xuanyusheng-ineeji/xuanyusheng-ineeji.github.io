@@ -21,13 +21,14 @@ I am a researcher with a background in Artificial Intelligence, Computer Vision,
 
 
 # 🔥 News
+- *2025.11*: &nbsp;🎉🎉 Joined ineeji Co., Ltd. as a Researcher at the AI Research Lab (Team 2), working on AI-based energy management and time-series data analysis.
 - *2025.08*: &nbsp;🎉🎉 Paper accepted at *Mathematics* (MDPI) — "Integrating Temporal Event Prediction and Large Language Models for Automatic Commentary Generation in Video Games".
 - *2025.07*: &nbsp;🎉🎉 Paper accepted at *Mathematics* (MDPI) — "EmoBERTa-CNN: Hybrid Deep Learning Approach for Enhanced Emotion Recognition in Conversational Settings".
 - *2024.10*: &nbsp;🎉🎉 Paper published in *IEEE Access* — "Indoor Scene Reconstruction From Monocular Video Combining Contextual and Geometric Priors".
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='images/mathematics-13-02738-g002.png' alt="commentary" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='/images/mathematics-13-02738-g002.png' alt="commentary" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Integrating Temporal Event Prediction and Large Language Models for Automatic Commentary Generation in Video Games**
@@ -41,7 +42,7 @@ I am a researcher with a background in Artificial Intelligence, Computer Vision,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='images/mathematics-13-02438-g001.png' alt="emotion" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mathematics 2025</div><img src='/images/mathematics-13-02438-g001.png' alt="emotion" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **EmoBERTa-CNN: Hybrid Deep Learning Approach Capturing Global Semantics and Local Features for Enhanced Emotion Recognition in Conversational Settings**
@@ -55,7 +56,7 @@ M. Zhang, A. Yu, **Xuanyu Sheng**, J. Park, J. Rhee, K. Cho
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Access 2024</div><img src='images/cho1-3481250-large.gif' alt="reconstruction" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Access 2024</div><img src='/images/cho1-3481250-large.gif' alt="reconstruction" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Indoor Scene Reconstruction From Monocular Video Combining Contextual and Geometric Priors**
@@ -78,5 +79,6 @@ M. Wen, **Xuanyu Sheng**, K. Cho
 - *2016.09 - 2020.06*, B.S., Bohai University, China. GPA: 80.57/100.
 
 # 💻 Work Experience
+- *2025.11 - present*, Researcher, AI Research Lab (Team 2), ineeji Co., Ltd., Seoul, South Korea.
 - *2023.09 - 2025.08*, Researcher, Game Engine & Robot Intelligence Lab, Dongguk University, Seoul, South Korea.
 - *2020.11 - 2023.08*, Frontend Developer, Hangzhou Langtu Technology Co., Ltd., China.
