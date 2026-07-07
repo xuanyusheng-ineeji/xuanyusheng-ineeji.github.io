@@ -1,0 +1,26 @@
+industry:
+  - title: "Data Collection Pipeline — Automated Multi-domain Data Ingestion"
+    org: "ineeji Co., Ltd. · AI Research Lab"
+    github: "https://github.com/xuanyusheng-ineeji/data_collector"
+    github_repos:
+      - label: "data_collector"
+        url: "https://github.com/xuanyusheng-ineeji/data_collector"
+      - label: "spc-data-collector"
+        url: "https://github.com/xuanyusheng-ineeji/spc-data-collector"
+    image: "/images/data_collector_arch.png"
+    badge: "ineeji · 2025"
+    description: >
+      A reusable automated data ingestion pipeline deployed across two business domains:
+      global financial & commodity markets (20+ international sources) and Korean food industry
+      business intelligence for SPC Group (weather, agricultural prices, retail statistics,
+      consumer search trends). Both pipelines share an identical architecture —
+      APScheduler → domain-specific Dumpers → CloudConnector → GCS / BigQuery / Data Catalog.
+    bullets:
+      - "**Global Markets** (`data_collector`): EODHD, KOMIS/LME, Westmetall, IMF, EIA, GIE, FRED, BLS, OECD, World Bank, China NBS, BOK, KOSIS, KMA, CFTC, Google Trends, MySteelNet, Gold.org (20+ sources)"
+      - "**Food Industry BI** (`spc-data-collector`): Open-Meteo weather, KAMIS agricultural prices, KOSIS retail statistics (CPI / CVS / Mart / SSM sales), Naver DataLab search trends — 152 series for SPC Group demand forecasting"
+      - "**Shared Architecture**: per-source Dumper classes → CloudConnector — Hive-partitioned CSV on GCS, auto-created BigQuery external tables, Google Data Catalog metadata per series"
+      - "**Incremental Collection**: all dumpers query BigQuery MAX(date) per series and fetch only new rows — idempotent and resume-safe across restarts"
+      - "**Reliability**: APScheduler cron with multi-stage retry (+1h, +2h) for key daily sources; structured daily log files"
+    tech: "Python · APScheduler · GCS · BigQuery · Data Catalog · pandas · pyarrow · Selenium · pdfplumber · SQLAlchemy · Open-Meteo · KAMIS · KOSIS · Naver DataLab API"
+
+personal: []

@@ -1,0 +1,16 @@
+{% assign p = include.project %}
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">{{ p.badge }}</div><img src='{{ p.image }}' alt="{{ p.title }}" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**{{ p.title }}**
+
+{{ p.org }} &nbsp;\|&nbsp; {% if p.github_repos %}{% for repo in p.github_repos %}[**{{ repo.label }}**]({{ repo.url }}){% unless forloop.last %} · {% endunless %}{% endfor %}{% else %}[**GitHub**]({{ p.github }}){% endif %}
+
+{{ p.description }}
+
+{% for bullet in p.bullets %}- {{ bullet }}
+{% endfor %}
+**Tech:** {{ p.tech }}
+
+</div>
+</div>
