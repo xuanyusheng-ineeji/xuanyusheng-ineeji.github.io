@@ -1,4 +1,6 @@
 {% assign p = include.project %}
+
+{% if p.image %}
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">{{ p.badge }}</div><img src='{{ p.image }}' alt="{{ p.title }}" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -14,3 +16,15 @@
 
 </div>
 </div>
+
+{% else %}
+<div style="border-left: 3px solid #2c3e50; padding: 10px 16px; margin-bottom: 1.2em; background: #f8f9fa; border-radius: 0 6px 6px 0;" markdown="1">
+
+**{{ p.title }}** &nbsp;·&nbsp; <span style="font-size:0.85em; color:#666;">{{ p.badge }}</span> &nbsp;\|&nbsp; [**GitHub**]({{ p.github }})
+
+{{ p.description }}
+
+<span style="font-size:0.85em; color:#555;">**Tech:** {{ p.tech }}</span>
+
+</div>
+{% endif %}

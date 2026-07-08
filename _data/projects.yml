@@ -23,4 +23,14 @@ industry:
       - "**Reliability**: APScheduler cron with multi-stage retry (+1h, +2h) for key daily sources; structured daily log files"
     tech: "Python · APScheduler · GCS · BigQuery · Data Catalog · pandas · pyarrow · Selenium · pdfplumber · SQLAlchemy · Open-Meteo · KAMIS · KOSIS · Naver DataLab API"
 
-personal: []
+personal:
+  - title: "Credit Risk Assessment Platform"
+    github: "https://github.com/xuanyusheng-ineeji/credit-risk-platform"
+    badge: "Personal Demo · 2026"
+    description: >
+      A demo ML platform for personal credit default prediction using the Kaggle "Give Me Some Credit"
+      dataset (150,000 records). Engineers 35 features from 10 raw inputs and trains XGBoost
+      (ROC-AUC 0.8659) with native TreeSHAP explanations, served via a Streamlit app supporting
+      single prediction, batch CSV scoring, and a model comparison dashboard.
+      Containerized with Docker Compose and tested with GitHub Actions CI/CD.
+    tech: "Python · XGBoost · scikit-learn · Streamlit · SHAP · Docker · GitHub Actions"
